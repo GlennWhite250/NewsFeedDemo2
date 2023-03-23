@@ -11,4 +11,5 @@ object Constants {
     const val ITEMS_PER_PAGE = 20
     const val BASE_URL = "https://newsapi.org"
     const val ARTICLE_DATABASE = "article_database"
+    const val HOME_SCREEN = "home_screen"
 }

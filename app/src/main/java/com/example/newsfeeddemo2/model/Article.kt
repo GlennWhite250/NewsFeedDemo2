@@ -12,7 +12,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class Article(
     @PrimaryKey(autoGenerate = true)
-    var articleId: Int? = null,
+    var articleId: Int,
     @SerialName("author")
     val author: String,
     @SerialName("content")

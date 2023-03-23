@@ -6,8 +6,8 @@ import com.example.newsfeeddemo2.util.Constants.ARTICLE_REMOTE_KEYS_TABLE
 
 @Entity(tableName = ARTICLE_REMOTE_KEYS_TABLE)
 data class ArticleRemoteKeys(
-    @PrimaryKey(autoGenerate = false)
-    val id: Int?,
+    @PrimaryKey(autoGenerate = true)
+    val id: Int,
     val prevPage: Int?,
     val nextPage: Int?
 )
