@@ -44,7 +44,7 @@ class ArticleRemoteMediator(
                 }
             }
 
-            val response = articleApi.getAllArticles(page = currentPage)
+            val response = articleApi.getAllArticles(page = currentPage).articles
             val endOfPaginationReached = response.isEmpty()
 
             val prevPage = if (currentPage == 1) null else currentPage - 1

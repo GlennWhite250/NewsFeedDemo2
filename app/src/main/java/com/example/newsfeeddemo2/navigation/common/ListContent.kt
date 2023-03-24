@@ -55,7 +55,7 @@ fun ArticleItem(article: Article) {
     val painter = rememberAsyncImagePainter(
         ImageRequest.Builder(LocalContext.current).data(data = article.urlToImage).apply(block = fun ImageRequest.Builder.() {
             placeholder(R.drawable.ic_placeholder)
-            error(R.drawable.ic_placeholder)
+            error(R.drawable.ic_error_foreground)
             crossfade(durationMillis = 1000)
         }).build()
     )
