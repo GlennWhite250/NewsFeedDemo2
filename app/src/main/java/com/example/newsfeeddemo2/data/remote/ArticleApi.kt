@@ -2,6 +2,7 @@ package com.example.newsfeeddemo2.data.remote
 
 import com.example.newsfeeddemo2.model.ArticleResponse
 import com.example.newsfeeddemo2.util.Constants.API_KEY
+import com.example.newsfeeddemo2.util.Constants.COUNTRY_CODE_HT
 import com.example.newsfeeddemo2.util.Constants.COUNTRY_CODE_US
 import com.example.newsfeeddemo2.util.Constants.HEADLINES_ENDPOINT
 import com.example.newsfeeddemo2.util.Constants.ITEMS_PER_PAGE
